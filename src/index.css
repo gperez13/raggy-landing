@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+:root {
+  --butterBeige: #f7e7ce;
+  --cocoaBrown: #4e342e;
+  --dustyRose: #c48f91;
+  --matchaGreen: #a8c686;
+  --skyLilac: #c5b4e3;
+
+  --font-heading: 'Baloo 2', cursive;
+}
+
+.hero-title {
+  font-family: var(--font-heading);
+  color: var(--cocoaBrown);
+  font-size: 3rem;
+}
+
+.background {
+  background-color: var(--butterBeige);
+}
