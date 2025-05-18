@@ -1,0 +1,59 @@
+.features {
+    background-color: var(--butterBeige);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .features-title {
+    font-family: var(--font-heading);
+    color: var(--cocoaBrown);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .features-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .feature-item {
+    background-color: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .feature-item h3 {
+    font-family: var(--font-heading);
+    color: var(--cocoaBrown);
+    font-size: 1.25rem;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .feature-item p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+  }
+  
+  /* Themed accents */
+  .feature-item.matcha .feature-icon {
+    color: var(--matchaGreen);
+  }
+  .feature-item.dusty .feature-icon {
+    color: var(--dustyRose);
+  }
+  .feature-item.lilac .feature-icon {
+    color: var(--skyLilac);
+  }
+  

@@ -1,0 +1,54 @@
+.email-capture {
+    background-color: var(--butterBeige);
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .email-capture h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--cocoaBrown);
+    margin-bottom: 0.5rem;
+  }
+  
+  .email-capture p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+  }
+  
+  .email-capture form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .email-capture input {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+  }
+  
+  .email-capture button {
+    padding: 0.75rem 1.25rem;
+    background-color: var(--dustyRose);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .email-capture button:hover {
+    background-color: #b9787a; /* darker dusty rose */
+  }
+  
+  .thank-you {
+    font-size: 1.25rem;
+    color: var(--matchaGreen);
+    font-weight: bold;
+  }
+  

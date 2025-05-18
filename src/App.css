@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* index.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo 2', sans-serif;
+  background-color: var(--butterBeige);
+}
