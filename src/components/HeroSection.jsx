@@ -13,9 +13,15 @@ function HeroSection() {
         <h1 className="hero-title">Raggy</h1>
         <p className="hero-tagline">Download your new wardrobe</p>
         <p className="hero-subtext">Swipe looks. Save what you love. Shop your vibe.</p>
-        <button className="hero-button" onClick={scrollToEmail}>
-          Join the Beta
-        </button>
+        <a
+            href="https://www.instagram.com/raggy.app/"
+            className="hero-button"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none' }}
+            >
+            Follow on Instagram
+        </a>
       </div>
 
       <div className="hero-image">

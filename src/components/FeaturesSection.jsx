@@ -5,7 +5,7 @@ const features = [
   {
     title: "Outfit Swiping",
     description: "Swipe left, save right — just like dating, but for clothes.",
-    image: `${process.env.PUBLIC_URL}/saved-garments.png`,
+    image: `${process.env.PUBLIC_URL}/swipe.png`,
     imageAlt: "Swipe UI mockup",
   },
   {
@@ -15,10 +15,16 @@ const features = [
     imageAlt: "Saved outfits preview",
   },
   {
-    title: "Curated Drops",
-    description: "New fits daily, personalized to your vibe.",
-    image: `${process.env.PUBLIC_URL}/saved-garments.png`,
-    imageAlt: "Daily drop notifications",
+    title: "AI Outfit Generation",
+    description: "Visualize your fit and share inspo using AI generated images",
+    image: `${process.env.PUBLIC_URL}/generate.png`,
+    imageAlt: "AI Outfit Generation",
+  },
+  {
+    title: "Discover and Follow",
+    description: "Upvote, follow, and shop from other's sense of style",
+    image: `${process.env.PUBLIC_URL}/feed.png`,
+    imageAlt: "Home feed",
   },
 ];
 

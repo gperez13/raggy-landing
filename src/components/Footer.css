@@ -70,3 +70,37 @@
     }
   }
   
+
+
+  .footer {
+    background-color: var(--butterBeige);
+    padding: 2rem;
+    text-align: center;
+    color: var(--cocoaBrown);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  .footer p {
+    font-family: var(--font-heading);
+    margin-bottom: 1rem;
+  }
+  
+  .footer .socials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .footer .socials a {
+    color: var(--skyLilac);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  
+  .footer .socials a:hover {
+    text-decoration: underline;
+  }
+  

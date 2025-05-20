@@ -12,7 +12,7 @@ function App() {
     <main>
       <HeroSection />
       <FeaturesSection />
-      <EmailCapture />
+      {/* <EmailCapture /> */}
       <Footer />
 
     </main>
