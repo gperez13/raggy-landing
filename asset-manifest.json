@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/raggy-landing/static/css/main.54023a2b.css",
+    "main.js": "/raggy-landing/static/js/main.493cc1b8.js",
+    "static/js/453.301d9989.chunk.js": "/raggy-landing/static/js/453.301d9989.chunk.js",
+    "static/media/logo.svg": "/raggy-landing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/raggy-landing/index.html",
+    "main.54023a2b.css.map": "/raggy-landing/static/css/main.54023a2b.css.map",
+    "main.493cc1b8.js.map": "/raggy-landing/static/js/main.493cc1b8.js.map",
+    "453.301d9989.chunk.js.map": "/raggy-landing/static/js/453.301d9989.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54023a2b.css",
+    "static/js/main.493cc1b8.js"
+  ]
+}
